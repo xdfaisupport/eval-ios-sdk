@@ -24,6 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'git@github.com:xdfaisupport/ios-ai-eval-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'xdfaisupport' => 'xdfaisupport@xdf.cn' }
   s.source           = { :git => 'git@github.com:xdfaisupport/eval-ios-sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
