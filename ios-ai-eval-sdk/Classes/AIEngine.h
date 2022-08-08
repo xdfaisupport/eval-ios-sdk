@@ -5,7 +5,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AIProcessController.h"
 #import "AIEvalRequest.h"
 #import "AIEvalResultListener.h"
 
@@ -21,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSString* recPath;
 @property (nonatomic) NSString* userID;
 
-@property (nonatomic) AIProcessController* controller;
+@property (nonatomic) id controller;
 
 - (instancetype)init NS_UNAVAILABLE;
 

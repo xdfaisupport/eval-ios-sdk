@@ -16,11 +16,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ios-ai-eval-sdk:
-    :commit: 577d14f712363a86826c23658c8365311beaa60d
+    :commit: 2824cf96c161d4128cf84903f52be64cdb199152
     :git: https://github.com/xdfaisupport/eval-ios-sdk.git
 
 SPEC CHECKSUMS:
-  ios-ai-eval-sdk: bf96b55a0f5aeb81ea615f2325e8f67b20780bf5
+  ios-ai-eval-sdk: 60919fd586f6736116e660a7e02d8b5f65a32c3f
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
 PODFILE CHECKSUM: f46dc508f1f4c9aa78ffb9e514de71bd09ec2a87
