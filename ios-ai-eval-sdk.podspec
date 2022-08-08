@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'ios-ai-eval-sdk' => ['ios-ai-eval-sdk/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
   s.vendored_libraries = 'ios-ai-eval-sdk/Classes/*.a'
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}

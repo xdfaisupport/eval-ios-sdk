@@ -4,7 +4,7 @@ PODS:
   - SocketRocket (0.6.0)
 
 DEPENDENCIES:
-  - ios-ai-eval-sdk (from `../`)
+  - ios-ai-eval-sdk (from `https://github.com/xdfaisupport/eval-ios-sdk.git`)
 
 SPEC REPOS:
   trunk:
@@ -12,12 +12,17 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   ios-ai-eval-sdk:
-    :path: "../"
+    :git: https://github.com/xdfaisupport/eval-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  ios-ai-eval-sdk:
+    :commit: 577d14f712363a86826c23658c8365311beaa60d
+    :git: https://github.com/xdfaisupport/eval-ios-sdk.git
 
 SPEC CHECKSUMS:
-  ios-ai-eval-sdk: 4e6b5fe1cf78fb393c2f2d1b056dd21d19507cc7
+  ios-ai-eval-sdk: bf96b55a0f5aeb81ea615f2325e8f67b20780bf5
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: e0742afd67aab776d442af50e5edfc7d8be56b25
+PODFILE CHECKSUM: f46dc508f1f4c9aa78ffb9e514de71bd09ec2a87
 
 COCOAPODS: 1.11.3
