@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ios-ai-eval-sdk_Example' do
+  pod 'ios-ai-eval-sdk', :git => 'https://github.com/xdfaisupport/eval-ios-sdk.git'
+  target 'ios-ai-eval-sdk_Tests' do
+    inherit! :search_paths    
+  end
+end

@@ -1,0 +1,23 @@
+PODS:
+  - ios-ai-eval-sdk (1.0.0):
+    - SocketRocket
+  - SocketRocket (0.6.0)
+
+DEPENDENCIES:
+  - ios-ai-eval-sdk (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  ios-ai-eval-sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ios-ai-eval-sdk: 4e6b5fe1cf78fb393c2f2d1b056dd21d19507cc7
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+
+PODFILE CHECKSUM: e0742afd67aab776d442af50e5edfc7d8be56b25
+
+COCOAPODS: 1.11.3
